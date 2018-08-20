@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drumkit</title>
+        <link rel=stylesheet href=./drum.css>
+        <script async type=text/javascript src='./drum.js'></script>
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div style="padding-bottom: 1em;text-align: center;">Click or press the key to play!</div>
+        <div id=canvas>
+            <div id=A class=button onclick="clickOn(this)">A</div>
+            <dir id=S class=button onclick="clickOn(this)">S</dir>
+            <div id=D class=button onclick="clickOn(this)">D</div>
+            <div id=F class=button onclick="clickOn(this)">F</div>
+            <dir id=G class=button onclick="clickOn(this)">G</dir>
+            <div id=H class=button onclick="clickOn(this)">H</div>
+            <div id=J class=button onclick="clickOn(this)">J</div>
+            <dir id=K class=button onclick="clickOn(this)">K</dir>
+            <div id=L class=button onclick="clickOn(this)">L</div>
+        </div>
+        <audio id=KeyA src="./sounds/dloop.mp3"></audio>
+        <audio id=KeyS src="./sounds/psnare.mp3"></audio>
+        <audio id=KeyD src="./sounds/snare.mp3"></audio>
+        <audio id=KeyF src="./sounds/dloop.mp3"></audio>
+        <audio id=KeyG src="./sounds/psnare.mp3"></audio>
+        <audio id=KeyH src="./sounds/snare.mp3"></audio>
+        <audio id=KeyJ src="./sounds/dloop.mp3"></audio>
+        <audio id=KeyK src="./sounds/psnare.mp3"></audio>
+        <audio id=KeyL src="./sounds/snare.mp3"></audio>
+    </body>
+</html>

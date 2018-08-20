@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    background-color: black;
+    color:white;
+    margin: 2em 5em 0 5em;
+    font-family: 'Baloo Bhai', cursive;
+}
+#canvas
+{
+    font-size: 5em;
+    display: grid;
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap: .5em .5em;
+    /* padding-top: 5em; */
+    height: 80vh;
+}
+.button
+{
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active
+{
+    color: orange;
+    font-size: .5em;
+}
+.sText
+{
+    font-size: .3em
+}
+@media (max-width:500px)/*if smaller than 500px*/
+{
+    html
+    {
+        margin: auto;
+    }
+}
+@media(min-width:1100px)
+{
+    html
+    {
+        margin: 0 15em;
+    }
+}
+@media(min-width:1300px)/*if bigger than 1300px*/
+{
+    html
+    {
+        margin: 0 22em;
+    }
+}
